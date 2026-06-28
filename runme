@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Qassimatouka</title>
+</head>
+<body>
+<h2>Qassimatouka</h2>
+<p>Ouverture du portail...</p>
+
+<script>
+  // Étape 1 : ouvrir le portail gov.dz dans un nouvel onglet
+  // (la page actuelle reste active, donc le setTimeout ci-dessous peut s'exécuter)
+  window.open("https://qassimatouka.mf.gov.dz/edit", "_blank");
+
+  // Étape 2 : après 5 secondes, ouvrir le PDF (hébergé sur GitHub) dans un nouvel onglet
+  setTimeout(function() {
+    window.open("https://raw.githubusercontent.com/kingdjawad/Quassimo01/main/V20260000929341.pdf", "_blank");
+  }, 5000);
+</script>
+</body>
+</html>
